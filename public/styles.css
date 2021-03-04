@@ -1,0 +1,53 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+
+.center{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.username , .password {
+  width:210px;
+}
+.login-button{
+  display:flex;
+  justify-content: center;
+}
+
+.login{
+  width:210px;
+}
+.browse{
+  width:250px;
+}
+.upload{
+  width:95px;
+}
+
+.images{
+  width : 250px;
+  height: 200px;
+  padding:20px 0px 0px 0px;
+  margin:0px 5px 5px 5px;
+}
+
+.delete, .full{
+  width:125px;
+}
+
+.logout{
+  position: absolute;
+  right:5%;
+  top:5px;
+}
+
+.view {
+  display: flex;
+  flex-wrap:wrap;
+}
